@@ -1,0 +1,20 @@
+
+
+		COMANDO DE MRD ME, DÍA NO PRODUCTIVO ME DORMI 1 HORA MIENTRAS TRATABA DE ENTENDERLO, LO ENTENDI PERO LA MRD DE TRANSFORMAR PARA BANDIT 12
+		FUE EL RETO QUE MÁS ME TOMO ASTA AHORA, Y ERA UNA TONTERIA, TODO POR MIS METODOS, SI BIEN AL INICIO LO LOGRE HACER NO FUE DE LA MANERA CORRECTA
+		
+		#tr:
+			BIEN ESTE COMANDO SIRVE PARA CAMBIAR X PALABRA POR OTRA, ES SIMPLE DEMASIADO, SUPON QUE PONES tr 'XD' 'DX'. ahora x es d y d es x
+			PUEDES HACER SIMPLEMENTE ESTO IR PONIENDO UNO POR UNO EN EL ORDEN QE QUE QUIERAS QUE VARIA X PALABRA, PERO TAMBIEN PUEDES USAR RANGOS
+			CON "-" SUPON QUE QUIERES CAMBIAR LAS PALABRAS DE LA A A LA Z Y NO IR ABCD... SIMPLEMENTE HACES "A-Z" Y LISTO. PERO AQUÍ UN DATO MUY
+			IMPORTANTE, SI EL PRIMER CONJUNTO O RANGO DE PALABRAS QUE COLOCASTE ES MAYOR POR EL CUAL LO REMPAZARAS ENTONCES EL COMANDO
+			HAGARRARA EL PRIMER TERMINO DE LAS PALABRAS CON LAS QUE CAMBIASTE SIGNIFICADO PARA LAS PALABRAS QUE NO HAYAS ASIGNADO.
+		#EJEMPLO: tr a-z quiero cambiarlo por una rotación de 13, osea la a que pase a ser m, la b n y asi sucesivamente, no puedes simplemente poner
+		#n-m porque en el alfabeto m esta más abajo que n, por lo que los caracteres que no sean a se convierten en n automaticamente
+		por lo que si quieres hacerlo entonces deberias de hacer esto: a-z n-z(porque no es m? pues facil tienes que correr un espacio para que exista 
+		el primer cambio, por lo que para que a o cualquiera cambie tiene que ser un valor mayor no el mismo, por lo que cuentas desde la b 13 letras
+		y asi llegas a la n): "a-zA-Z" "n-za-mN-ZA-M"
+			#-d: sirve para eleminar el caracter o caracteres que asignes tr -d "a" (ya no saldra a)
+			#-s: elimina terminos repetidos que se encuentrn juntos: echo "holaaaa" | tr -s 'a' = hola
+			#-c: todo lo que no sea las palabras que indicaste se conviertan en la otra palabra que indicaste
+				ejemplo: echo "carnivoro" | tr -c aeiou "-" = -a--i-o-o (todo lo que no sea aeiou en este caso se convirtio en -)
