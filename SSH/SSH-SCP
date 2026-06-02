@@ -1,0 +1,42 @@
+
+	BIEN AQUI SE HABLARA DE LO QUE ES SSH Y SCP AMBOS VAN MUCHO DE LA MANO YA QUE SCP DEPENDE O BUENO CUANDO LO USAS ESTAS USANDO SSH PARA IINTERCAMBIAR 
+	ESTA INFORMACIÓN, DICHO ESTO, LOGRE ENTENDER ESTO GRACIAS AL NIVEL 13>14 DE BANDIT ASI QUE ESTA ES UNA RECAPITULACIÓN DE LO QUE APRENDÍ
+
+	#SSH: ¿QUÉ ES ESTA COSA XD?
+	SSH es un comando con el cual puedes conectarte a una PC de forma remota, o sea, puedes ejecutar comandos como si estuvieras delante de esa PC. 
+	Aparte de esto, SSH se encarga de que la conexión sea muy segura. Para ponernos un poco en contexto, SSH funciona como un cable que lleva los datos
+	del punto A al punto B de manera encriptada (cifrada), asegurándose de que el mensaje llegue a su destino para recién ser desencriptado.
+	SSH también se asegura de que la información llegue tal cual fue enviada; en caso de que se detecte una modificación respecto a la copia original que 
+	fue mandada, SSH corta la conexión automáticamente.
+	Ahora bien, SSH también se asegura, antes de entablar la conexión, de que tú seas el usuario que dices ser. Esto lo hace mediante dos métodos. El primero de
+	manera tradicional, con contraseña, la que usa todo el mundo pero a la vez la más insegura. El segundo método es la comprobación de identidad por llaves SSH
+	Qué son? Son códigos criptográficos complejos que puedes generar en el momento que quieras; puedes usar una misma llave para varios servidores o una 
+	distinta para cada uno, aunque lo ideal por seguridad es variarlas.
+	Cómo funciona? Cuando creas tu par de llaves SSH en Linux, este te genera dos archivos. El primero contiene tu llave pública, la cual puedes compartir con 
+	todos y sirve para identificarte, esta es la que subes o guardas en el servidor remoto (la PC a la que te quieres conectar). El segundo archivo, y el más
+	 importante, contiene la llave privada. Esta es tu "llave maestra" por asi decirlo XD y debes guardarla muy bien. Son caracteres y códigos largos muy poco
+	 predecibles. Cuando intentas conectarte, tu cliente SSH presenta tu llave privada ante la llave pública del servidor, y si encajan correctamente, se 
+	entabla la conexión de forma automática y segura. Bien ahora con estos conceptos ya entendidos, tú exacto tú quieres entrar a un servidor pero no tienes su
+	password, tienes su llave ssh privada por lo que sea xd, bueno entonces no vas a ser sonso y pegar la llave en tu terminal para conectarte, aparte que no
+	funciona ocuparia mucho espacio y la contraseña debe de estar un archivo, el cual tiene permisos, y de manera obligatoria con ls -l debes de asegurarte
+	que sus permisos sean de 600 maximo, ningún permiso paar grupo y otros, ya que apesar de que ssh te niega la conexión esto implica que cualquiera en tu grupo
+	podria leer el archivo y quedarse con tu llave, asi que debes de tener eso siempre en 600 y te evitas problemas, y bien me explique solito como funciona
+	y porque pero no como hacerlo, entonces ahora el entorno que yo use fue para conectarme a bandit14 con ssh, pues para especificar el archivo donde está
+	tu llave usas la flag "-i archivo.txt" y también algo que aprendí esque debes de usar -p despues de especificar el archivo y ya como último el directorio
+	y listo ya tienes tu conexión ssh por llave ssh:
+	# ssh -i archivo.txt -p 2220 bandit14@bandit.labs 
+	Ahora otro dato que támbien me gusto usar fue el tema de ejecutar comandos dentro de la maquina pero sin contectarme osea sain que mi terminal se llene
+	con el espacio de bienvenida y todo eso, bueno para lograr esto no es muy dificil simplemente después de haber escrito el comando ya puesto arriba
+	(en caso de conexión por llave ssh), tendrias que al final colocar tu comando que quieras usar entre comillas obligatorio!, Bien yo lo probe
+	y use el siguiente comando para catear el archivo dónde estaba la contraseña sin necesidad de entrar, ah y algo más, para ejecutar varios comandos
+	a la vez simplemente usa ; cada junto cada vez que uses un comando nuevo, no funciona como tuberia sino como otro comando separado
+	# ssh -i archivo.txt -p 2220 bandit14|bandit.labs 'cat /etc/bandit_pass/bandit14" y listo tienes la contraseña sin necesidad de haber entrado
+
+	xd mucho texto pero bueno, ahora psamos con el comando scp, el cual sirve para pasar información de un sitio a otro, dentro se sigue ejecutando
+	el protocolo ssh por lo que no te preocupes sigue siendo seguro
+	#scp -P 2220 banditx@bandit.labs:./etc/bandit14/password .
+	Bien este es el comando qe yo use o porlomenos el que me acuerdo, pero para explicarlo paso por paso, primero la diferencias con scp, la primera que se
+	logra ver es la P, la cual en este comando esta en mayuscula, esto ocurre ya que en ssh la -p tiene un significado y fin distinto.
+	Ahorase ve tambien que se usa ":" esto indica de donde quieres sacar el archivo y luego al lado pones la ruta exacta, una vez que ya allas especificado
+	esto, con un espacio al lado pones donde quieres que llegue el comando a tu pc local, en mi caso yo puse . ya que ya estaba donde queria que llegu este
+	archivo	y listo, ahora si, también se puéde en documento tienes que hacer lo mismo
