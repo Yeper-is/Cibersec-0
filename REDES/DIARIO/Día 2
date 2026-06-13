@@ -1,0 +1,20 @@
+¡IMPORTANTE, NO CONSIDERAR ESTA INFORMACIÓN, SOLO SIRVE COMO MI DOCUMENTACIÓN DE MI CAMINO A SEGUIR, NO ASEGURA QUE SEA CORRECTA!
+
+CLASE 1 — El problema que las redes resuelven
+¿Por qué la información necesita fragmentarse?
+Porque los sistemas tienen un límite máximo en el cual los datos pueden ser transportados. Además, si un archivo muy grande viajara completo ocuparía todo el espacio disponible en la red, generando tráfico y bloqueando al resto. La fragmentación permite que el archivo llegue más rápido y sin bloquear la red.
+¿Por qué cada fragmento necesita una etiqueta?
+Para que cuando la información llegue al receptor el sistema al cual llegue sepa como reordenarla, es como un manual de instrucciones, ya que con esté se puede saber como armar exactamente el mensaje final.
+¿Por qué los caminos son dinámicos?
+Tal cual dicho antes la información no viaja junta, viaja fragmentada, y cada parte es autonoma al resto, por eso cada uno busca su mejor ruta en ese instante, justamente por eso se les coloca una etiqueta porque el orden de llegada suele llegar mezclado.
+¿Por qué se necesita confirmación de entrega?
+Para saber si el paquete llegó al dispositivo del receptor. La red no confirma si el receptor leyó el mensaje — solo confirma que llegó. Si no llegó, el sistema reenvía la información.¿Por qué se necesita integridad?
+Para saber que si el mensaje enviado inicialmente es el mismo que cuando llegó al receptor, ya que de caso contrario la información podría, o no estar completa, o pordría estar distorcionada, así que se necesita un metodo para que se corrobore que la información enviada sea la misma que la recibida.
+¿Por qué se necesita confidencialidad?
+Obviamente si esque mandas una información privada no quieres que nadie más la vea o robe tu inforamción, o quiza pueda escalar a otras cosas con esta información
+¿Qué es un protocolo en términos reales?
+Un protocolo es un acuerdo previo entre máquinas sobre cómo van a comunicarse — qué formato usar, qué significa cada cosa, y qué hacer si algo falla. Sin ese acuerdo, aunque el paquete llegue, nadie sabe qué hacer con él.
+  #Corrección: tu versión decía "lenguaje universal que usan todas las máquinas". Eso es correcto pero incompleto. Lo que hace a un protocolo un protocolo no es solo el lenguaje — es el acuerdo previo. Dos máquinas pueden hablar el mismo idioma y aun así no comunicarse si no acordaron el formato.
+¿Qué es una red explicada sin tecnicismos?
+Una red es un sistema de repartidores que mueven información convertida en ceros y unos a través de cables, siguiendo reglas compartidas, para que llegue completa y en orden a donde tú indiques.
+ #FALTA CONTEXTO
