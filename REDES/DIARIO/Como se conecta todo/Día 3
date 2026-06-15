@@ -1,0 +1,11 @@
+Bueno, hoy estare resolviendo y corrigiendo cosas que pensaba antes de la clase y después de la clase, de momento con lo que voy viendo este día parece que se hablara sobre MAC y direcciones IP, así que bueno lo que dare es lo que de momento pense para que servian:
+DIRECCIÓN MAC:
+  Hasta ahora la dirección MAC me parecia imnecesaria, simplemente un indicador de fabrica de pc, un conjunto de números y letras que por lo que hasta ahora pienso que solo sirve por si algún día quieres ir a reclamar tu garantia, para que sepa que la garantia le sirve a tu PC por su número de "creación", pero parece que la MAC sera más que eso, así que ya se vera
+DIRECCIÓN IP
+  PÚBLICA: Lo que pense hasta ahora sobre esto es que sirve para poder buscar el destino final a donde la información llegara de manera más ordenada haciendolo más facil, ya que las direcciones IP usan rangos, por ejemplo supongo que "xxxx" a "yyyy" sirven o son de google por ejemplo, y que esté encuentra, tu pais, tu provincia, y tu calle y departamento, pero ahora si bien detecta tu apartamente, ese es la maxima escala a la que puede llegar, y hay es donde entra la dirección privada
+  PRIVADA: Aquí es donde termina el trabajo de la dirección pública y entra la privada, la ip pública llega hasta la puerta de tu casa o apartamento, ahora supongamos que es un apartamento, la ip publica le deja la información al "portero"(ip privada), entonces lo que hace el portero es que como el conoce todo el edificio es buscar exactamente la puerta a la que la ip le indica y culminar con la entrega del paquete
+
+PREGUNTAS A RESPONDER:
+¿Cómo puede alguien hacerse pasar por otro dispositivo en la red?
+¿Qué hace mi máquina para preparar la información antes de que salga al primer repartidor?
+¿Qué pasa si dos dispositivos tienen la misma IP en la misma red local?
