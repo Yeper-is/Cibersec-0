@@ -7,7 +7,7 @@ Las MACS ya vienen asignadas, pero las IPS no, así que lo que hace DHCP son dos
 ¿Qué es un broadcast y por qué es necesario?
 El broadcast se puede realizar gracias a las MAC, piensa que entraste a una cafetería, antes de nada tu puedes mandar un broadcast o un grito al aire, esperando que alguien responda, En una red normal solo el servidor DHCP responde el Discover — no todos los dispositivos. por lo que el DHCP ofrece su servicio atraves de un broadcast y su MAC como metodo de identificación.
 ¿Cuáles son los cuatro pasos del proceso DHCP y qué ocurre en cada uno?
-Discover 1:Primero mi pc manda un broadcast al aire esperando una respuesta
-Offer 2:Después los que hallan escuchado el grito mandaran su servicio ofreciendolo de igual manera atraves de un broadcast con la dirección MAC de cada uno, para que así se identifique
-Request 3:Después que mi pc ecuche el broadcast de los servicios, esté escogera el que le interese, y volvera a mandar un broadcast, pero está ves especificando la dirección MAC del servicio que le interesa, el resto simplemente lo ignora
-Acknowledge 4:Cuando la petición llegue al router esté realizara su servicio, en este caso y le asignara una dirección IP, la cual de igual manera se volvera a enviar por un broadcast por última vez, cuando la IP llegue a la PC esté mandara un mensaje de confirmación al router y ya contara con una red y podra interactuar con el mundo.
+1 Discover: Mi equipo manda un broadcast al aire con su dirección MAC esperando que un protocolo DHCP conteste.
+2 Offer: Aquí DHCP escucho la petición, y mando igualmente un broadcast indicando la MAC especifica del equipo para que el resto de equipos que lleguen a escuchar el broadcast simplemente lo ignoren, y así el que tiene la MAC especificada sepa que a el se le habla, aparte de especificar la MAC DHCP manda el saludo y ofrece una IP igualmente por broadcast.
+3 Request: después mi equipo escucha el grito y sabe que es para el porque este broadcast tiene su MAC, entonces ve la IP que se le ofrece, si mi equipo acepta entonces manda la confirmación al aire especificando la MAC del router, así por si habian mas DHCPs, el resto sabe a cual mi equipo hizo caso.
+4 Acknowledge: Aquí DHCP ya confirma y cierra sabiendo que ahora X IP le pertenece a mi equipo, así bloqueándolo para el resto.
