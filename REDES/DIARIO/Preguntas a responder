@@ -13,3 +13,5 @@ PREGÚNTAS DÍA 2:
 
 PREGÚNTAS DÍA 4: DHCP Y MAC
 ¿Qué hace mi equipo internamente cuando recibe la IP confirmada? ¿Cómo "activa" esa dirección?
+¿Qué hace mi laptop exactamente cuando recibe el Acknowledge — cómo configura la IP internamente?
+¿Cómo sabe mi equipo la IP de destino si nunca antes nos comunicamos?
