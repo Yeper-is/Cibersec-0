@@ -1,0 +1,75 @@
+Campaña
+Campaña I — Fundamentos de la Comunicación entre Sistemas
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+Expedición 1
+¿Por qué necesitan comunicarse los sistemas?
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sesión: 1
+Fecha: 09/07/2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+1.¿Cuál era la Gran Pregunta?
+¿Por qué existe la necesidad de que dos sistemas puedan comunicarse y qué problemas aparecen cuando intentan hacerlo?
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+2.¿Qué problema intentábamos resolver?
+Comprender cuál es la necesidad humana que origina la comunicación entre sistemas, antes de estudiar cualquier tecnología.
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+3.Explica el concepto con tus palabras.
+Las personas siempre han necesitado compartir información con otras personas, incluso cuando están lejos o cuando varias necesitan acceder a ella al mismo tiempo. Las computadoras heredan esa necesidad humana. La comunicación entre sistemas existe para permitir que la información llegue a quien la necesita de forma rápida, sin depender de procesos manuales como copiarla o transportarla físicamente.
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4.¿Con qué conecta?
+
+Con la necesidad humana de compartir información, colaborar y mantener la información disponible para otras personas.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5.Lagunas
+Ninguna.
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. ¿Qué todavía no puedo explicar?
+Todavía no puedo explicar qué condiciones debe cumplir un sistema para compartir información correctamente.
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+Autoevaluación
+[X] Construcción
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREGUNTAS CONSTRUCTORAS DEL MODELO MENTAL:
+¿Por qué se querría que dos computadoras se puedan comunicar?
+¿En que momento surgió la idea o la necesidad de crear un sistema que comunique a equipos?
+
+RETROALIMENTACIÓN: 
+Inicio se la primera clase de Atlas, Bueno la pregunta primera pregunta que fue registrada fue la siguiente:
+¿Por qué alguien querría que esas dos computadoras pudieran comunicarse?
+Bueno primero la pregunta ya asume que existe más de una computadora, ahora ¿Qué hacían inicialmente las computadoras?, ¿Por qué se querría que dos computadoras se puedan comunicar?. Está pregunta probablemente halla surgido de una necesidad, no podría decir con exactitud en que ayudaba pero, la necesidad de que dos equipos se puedan comunicar para algo que no podían hacer por si solos antes, pues no la podría responder con exactitud porque no se para que servían las computadoras en ese tiempo, no creo que en ese tiempo existan las interfaces bonitas en las que tengas una barra de búsqueda con un mouse para seleccionar lo que quieres, pues si ya se tuviera todo eso pues probablemente la necesidad principal seria otra, pero en ese entonces probablemente no era así, entonces la pregunta ¿En que momento surgió la idea o la necesidad de crear un sistema que comunique a equipos?. Pues se podría responder de mejor manera sabiendo el contexto de que hacían las Computadoras inicialmente, pero sacando una pequeña hipótesis quizá en ese momento sea el hecho de que quizá en ese tiempo pensaron que se podrían unir dos equipos para trabajar en simultaneo para la tera con la que fueron creadas.
+
+CHAT GPT: Imagina que trabajas en una empresa.
+En una computadora escribes un documento muy importante. Ahora otra persona necesita exactamente ese documento. Las computadoras no pueden comunicarse.
+¿Qué opciones tendrían esas personas para que la segunda computadora tenga el documento?.
+
+Mirando la vida real, se que ambas guardan información, la necesidad es que una persona quiere la información que yo tengo en mi equipo, en ese entonces no existe una manera de que dos computadoras puedan intercambiarse. En ese caso pues deduciendo que puedo sacar la información de mi disco de mi PC y colocarlo dentro de otra PC, pues mirándolo seria un método muy malo porque primero al sacar el Disco de mi PC mi PC se quedaría sin uno, aparte cuando lo valla a colocar en la otra PC, el otro equipo vera lo que yo tendría pero lo que el tenia no lo podría ver en simultaneo, entonces primero mirándolo de manera más simple se necesita pasar una única información de una PC a otra sin que una y la otra se vea afectada, ósea multiplicando el archivo, ¿Entonces como se multiplicaría una archivo y como es que se podría meter esa información dentro de otro equipo?. Difícilmente seria algo físico porque no puedes sacar 2 memorias y que en una simplemente este la información que quieres, y de igual manera seguiría el problema de ¿Cómo se complementaria esta nueva información conservando el resto?. Bueno entonces vemos que de la manera física termina siendo algo difícil el hecho de crear algo que incorpore la información dentro de la memoria, entonces ahora podríamos pensar en recrear ese archivo directamente en mi computadora, ósea escribir manualmente lo que tenga el otro archivo y de esa manera crearía una copia, pero si fuera un archivo grande?, seria muy molesto tener que escribir manualmente todas las veces que se necesite recrear el archivo, eso y otras complicaciones, entonces aquí se pensaría no existe una manera de que mi equipo pueda pasar cosas de un equipo a otro?
+
+CHAT GPT: Hay dos computadoras. Una está conectada a una máquina de rayos X de un hospital. La otra está en la oficina del médico. El paciente acaba de hacerse una radiografía. Las computadoras siguen sin poder comunicarse.
+
+¿Qué problema tiene realmente el hospital? ¿Qué cambia en el hospital porque esas computadoras no pueden intercambiar información?
+
+Este me parece un problema si, pero ahora que lo pienso pueden haber problemas aun mayores, si sabia que podrían existir este tipo de problemas, pero como al inicio me dijiste que pensara como si estuviera en ese tiempo. Pero ahora lo entiendo, entonces bueno si esto es un problema, primero el hecho que una maquina este conectada a la PC quiere decir que ya hay una conexión previa, entonces mirare a ese punto primero, Perfecto tenemos una maquina de Rayos X y un chico acaba de ser escaneado a través de ella pero, si no existiera la conectividad entonces como hago para imprimir los resultados y entregárselos al paciente suponiendo que la maquina no tiene una impresora que realice la acción, bueno aquí se necesita un medio por el cual los datos puedan viajar y llegar a la impresora, para que esto se logre se necesitan mochos factores pero de todos ellos creo que el más importante seria que la maquina sepa que la impresora existe y poder enviar la información y que le llegue correctamente a la impresora tal cual fue enviada. 
+
+CHAT GPT: Quiero llevarte un nivel más profundo. Observa esto. Imagina exactamente el mismo hospital. Pero ahora... No existen computadoras. Todo es papel. Todo. El médico escribe en papel. La radiografía se imprime en película. Las recetas se escriben a mano. Los historiales son carpetas físicas. Y el hospital funciona. De hecho, durante décadas los hospitales funcionaron así. Entonces aparece una computadora. Mi pregunta ya no es técnica. Es mucho más simple.
+
+¿Qué problema humano intenta resolver la comunicación entre sistemas? ¿Qué problema tienen las personas que hace valioso que las computadoras puedan compartir información?
+
+El hecho de poder compartir datos sin necesidad de tener que perder los que ya tienes, dijiste que todo estaba en papel, perfecto entonces si todo esta en papel alguien podría tomarlo, pero que pasaría si otro también quisiera usarlo a la vez?, pues lo mismo que dije antes, se necesitaría crear una replica manualmente de esto lo que tomaría tiempo lo cual es molesto o malo en caso de que sea una emergencia. Entonces las computadoras tienen exactamente el mismo problema por si solas aunque mejorado, tienen la posibilidad de guardar mucha información de manera ordenada en tu equipo, pero si alguien necesitara esa información se tendría que repetir el mismo proceso. Entonces el poder compartir información permite que esa misma información pueda obtenerlo la persona que quiera pudiendo crear copias de lo que se requiera de manera más sencilla que reescribiéndolo
+
+CHAT GPT: Dijiste:
+"El problema es poder compartir datos sin perder los que ya tienes." ¿Seguro? Voy a construir un contraejemplo. Imagina una universidad. Hay un profesor. Tiene un anuncio muy importante: "Mañana no habrá clases." Tiene una sola hoja de papel. Hace 100 fotocopias. Ahora hay 100 copias. ¿El problema quedó completamente resuelto? Piénsalo. Ahora cambia el escenario. Mientras los alumnos están leyendo las copias... el profesor descubre que había un error. La clase sí se realizará. Ahora la información correcta ya no coincide con las 100 copias.
+
+¿Ves por qué el problema humano es incluso más profundo que simplemente "hacer copias"? ¿Qué otra necesidad aparece cuando muchas personas utilizan la misma información?
+Bien iniciare respondiendo esta parte: Tiene una sola hoja de papel. Hace 100 fotocopias. Ahora hay 100 copias. ¿El problema quedó completamente resuelto?.
+Y la respuesta es no, puede que no solo hayan 100 alumnos quizá hay más, y quizá alguno o unos alumnos pierden su fotocopia, pero aquí diría que entra el hecho de que la información principal queda disponible y esta misma puede generar más copias aun, suponiendo que el profesor pierde su archivo existen otros alumnos que lo tienen, entonces aparte de que permite que la información pueda distribuirse de una mejor manera permite que la información sea más difícil de perder.
+
+¿Qué otra necesidad aparece cuando muchas personas utilizan la misma información?
+Ahora con respecto a la parte que dijiste del error del profesor. Esto yo lo consideraría más como un error humano, pero la otra necesidad que satisface la conectividad es que permite que el profesor sin necesidad de estar parado frente a los estudiantes pueda comunicarles desde donde este que si habrán clases ese día 
+
+CHAT GPT: Voy a hacer una pequeña validación antes de cerrar esta parte. No quiero una definición. Quiero ver si el modelo mental ya existe. 
+Escenario: Imagina un mundo donde las computadoras son extremadamente rápidas. Tienen almacenamiento infinito. Nunca fallan. Pueden hacer cualquier cálculo imaginable. Pero siguen siendo incapaces de intercambiar información entre ellas.
+
+¿Qué limitación seguirían teniendo las personas por culpa de esa incapacidad?
+
+Bien perfecto, tengo una super computadora puedo hacer todo dentro de ella, pero La imposibilidad de compartir información sigue siendo un gran problema, si esto no existiera la humanidad tendría muchos problemas, por ejemplo si se descubre que habrá un fenómeno natural y nadie puede advertirle a toda una ciudad en el menor tiempo posible desde un solo punto seria un gran problema. Así como también poder hablar con mi amigo de Canadá sin necesidad de que tome un vuelo solo para hablar con el.
